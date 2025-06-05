@@ -169,3 +169,8 @@ figcaption {
 .sign-up button {
     border: 2px #E7ECEF solid;
 }
+
+.footer-body {
+    padding: 30px;
+    text-align: center;
+}
