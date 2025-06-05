@@ -56,11 +56,23 @@ li {
 }
 
 .left-header {
-    flex: 1 2 30%;
+    flex: 1;
+    text-align: justify;
+    padding: 20px;
 }
 
 .left-header h1 {
     font-size: 1.3em;
+    flex: 1;
+}
+
+.right-header {
+    flex: 2;
+    padding: 20px;
+}
+
+.right-header img {
+    width: 100%;
 }
 
 .left-header button {
@@ -73,4 +85,38 @@ li {
 }
 .left-header * {
     margin: 10px 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E7ECEF;
+    color: #9966CC;
+    height: 70vh;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.body img {
+    border: 2px #9966CC solid;
+}
+
+.body figure {
+    text-align: center;
+}
+
+figcaption,
+.body img {
+    width: 100%;
+}
+
+figcaption {
+    height: 30px;
 }
