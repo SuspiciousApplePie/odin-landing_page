@@ -91,11 +91,16 @@ li {
 .body {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: #E7ECEF;
     color: #9966CC;
-    height: 100vh;
+    height: 80vh;
+}
+
+.body h1 {
+    font-size: 2.5em;
+    font-weight: bold;
 }
 
 .images {
@@ -126,6 +131,9 @@ figcaption {
     padding: 40px;
     background-color: blanchedalmond;
     color: #FC9F5B;
+    height: 60vh;
+    display: flex;
+    align-items: center;
 }
 .quote {
     max-width: 250px;
@@ -154,6 +162,10 @@ figcaption {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-color: #9966CC;
+    background-color: #33CA7F;
     border-radius: 20px;
+}
+
+.sign-up button {
+    border: 2px #E7ECEF solid;
 }
